@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-#define n 4
+#define n 5
 
 bool is_safe(char chess[][n], int col, int row)
 {

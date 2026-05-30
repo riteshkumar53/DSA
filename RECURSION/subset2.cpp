@@ -78,9 +78,13 @@ int *countsort(int *arr, int n)
 int main()
 {
     int arr[] = {1, 5, 2, 2}; // first sort out all elements
+
     int n = sizeof(arr) / sizeof(arr[0]);
+
     countsort(arr, n);
+
     int subset2[n];
+    
     subset(arr, subset2, n, 0, 0);
     return 0;
 }
