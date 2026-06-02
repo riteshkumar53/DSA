@@ -5,7 +5,7 @@ using namespace std;
 
 // bool sort(vector<int> vec)
 // {
-//     for(int i=0;i<vec.size();i++)
+//     for(int i=0;i<vec.size()-1;i++)
 //     {
 //         if(vec[i]>vec[i+1])
 //         {
