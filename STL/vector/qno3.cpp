@@ -17,7 +17,7 @@ int main()
             largest=vec[i];
         }
 
-        else if(vec[i]>second_largest)
+        else if(vec[i]>second_largest && vec[i] != largest)
         {
             second_largest=vec[i];
         }

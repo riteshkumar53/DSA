@@ -16,7 +16,7 @@ int main()
     {
         cin >> vec[i];
     }
-    sort(vec.begin(), vec.end());
+    //sort(vec.begin(), vec.end());
 
     auto it=unique(vec.begin(),vec.end());
 

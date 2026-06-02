@@ -1,4 +1,5 @@
 // Majority Element (LeetCode 169)
+//Boyer-Moore Voting Algorithm
 
 #include <bits/stdc++.h>
 using namespace std;
