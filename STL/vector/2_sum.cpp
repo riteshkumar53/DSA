@@ -4,6 +4,8 @@
 // of the two numbers such that they add up to target.
 // You may assume exactly one solution exists.
 
+
+//brute force
 #include <bits/stdc++.h>
 using namespace std;
 
