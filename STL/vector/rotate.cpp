@@ -32,7 +32,7 @@ void rotate_array(vector<int>& vec, int k)
 int main()
 {
     vector<int> vec={1,2,3,4,5,6,7,8,9,10};
-    vec = rotate_array(vec, 3);
+    rotate_array(vec, 3);
     for(int val:vec)
     {
         cout<<val<<" ";

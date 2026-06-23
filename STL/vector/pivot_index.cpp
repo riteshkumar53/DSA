@@ -11,24 +11,24 @@ int pivot_index(vector<int> vec)
     int sum1 = vec[0];
     int sum2 = vec[n - 1];
 
-    for(int i=0;i<n-1;i++)
+    for (int i = 0; i < n - 1; i++)
     {
-        sum1+=vec[i+1];
-        sum2+=vec[n-2-i];
+        sum1 += vec[i + 1];
+        sum2 += vec[n - 2 - i];
     }
 
-    if(sum1-vec[0]==0)
+    if (sum1 - vec[0] == 0)
     {
         return 0;
     }
 
-    if(sum2-vec[n-1]==0)
+    if (sum2 - vec[n - 1] == 0)
     {
-        return n-1;
+        return n - 1;
     }
 
-    sum1=vec[0];
-    sum2=vec[n-1];
+    sum1 = vec[0];
+    sum2 = vec[n - 1];
 
     while (left < right)
     {
@@ -60,9 +60,9 @@ int pivot_index(vector<int> vec)
 
 int main()
 {
-    vector<int> vec = {2,1,-1};
+    vector<int> vec = {2, 1, -1};
     int x = pivot_index(vec);
-    if (x!=-1)
+    if (x != -1)
     {
         cout << "Pivot index at index:" << x;
     }

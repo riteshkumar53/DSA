@@ -1,5 +1,6 @@
 // Remove Duplicates // leetcode qno 26
 
+//brute force
 #include <bits/stdc++.h>
 using namespace std;
 
